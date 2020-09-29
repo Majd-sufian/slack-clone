@@ -1,0 +1,32 @@
+.siderbarOption {
+  display: flex;
+  margin-left: 12px;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.siderbarOption:hover {
+  opacity: 0.9;
+}
+
+.sidebarOption__icons {
+  padding: 10px;
+  font-size: 15px !important;
+}
+
+.sidebarOption__channel {
+  padding: 10px 0;
+}
+
+.sidebarOption__hash {
+  padding: 10px;
+}
+
+.siderbarOptionNone {
+  display: none;
+}
+
+.siderbar__header > .MuiSvgIcon-root {
+  padding: 9px;
+}

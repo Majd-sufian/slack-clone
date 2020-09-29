@@ -1,0 +1,53 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--slack-color);
+  padding: 3px;
+}
+
+.Header__icon {
+  color: #e5e0e6;
+}
+
+.Header__search {
+  position: relative;
+  top: 2px;
+}
+
+.search__input {
+  width: 350px;
+  position: relative;
+  bottom: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.search__input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #e5e0e6;
+  position: relative;
+  left: 5px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .search__input {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .search__input {
+    max-width: 250px;
+  }
+}
+
+.header__userImage {
+  height: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.Header__left {
+  visibility: hidden;
+}

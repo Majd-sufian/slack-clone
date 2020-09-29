@@ -1,0 +1,83 @@
+.chatBox {
+  marging: 25px;
+  margin-right: 35px;
+  margin-left: 13px;
+  margin-bottom: 20px;
+  color: rgba(29, 28, 29);
+  border: 2px solid #a6a6a4;
+  border-radius: 5px;
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+  width: 77%;
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+  .chatBox {
+    width: 70%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .chatBox {
+    width: 20%;
+  }
+} */
+
+.chatBox__stickers {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+
+.chatBox__input {
+  width: 97%;
+  border-bottom: 1px solid #a6a6a4;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.chatBox__stickers__right {
+  margin: 10px;
+  /* position: relative; */
+  /* left: 22px; */
+  /* background-color: rgba(248, 248, 248); */
+}
+
+.chatBox__stickers__left {
+  margin: 10px;
+}
+
+.chatBox__sticker {
+  margin-right: 5px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

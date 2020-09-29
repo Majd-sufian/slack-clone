@@ -1,0 +1,22 @@
+.message {
+  display: flex;
+  margin: 15px;
+}
+
+.message__userImage {
+  height: 45px !important;
+  width: 45px !important;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.message > h4 {
+  margin-bottom: 6px;
+}
+
+.message__timestamp {
+  font-weight: 400px;
+  font-size: 12px;
+  color: gray;
+}
